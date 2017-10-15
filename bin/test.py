@@ -1,11 +1,11 @@
 import csv
 
-csv_file_path = 'data/csv/Storm.csv'
+file = 57
 
-with open(csv_file_path) as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        print(row['YEAR'])
+with open('data/csv/'+ str(file) +'.csv' ) as csvfile:
+     reader = csv.DictReader(csvfile)
+     for row in reader:
+         print(row['YEARMONTH'])
 
 
 
