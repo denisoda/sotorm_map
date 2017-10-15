@@ -1,0 +1,19 @@
+ Diff for (USA area) Y:
+
+48 32  = 16 - Gmap
+
+50 457  = 407 - MyMap Y
+
+rate to Gmap Y = 0.039
+
+rate to MyMap = 25.4
+-------------------------
+Diff for (USA area) X:
+
+-75.10 -122.84 = 47 gmap X
+
+954 -  49 = 905 my map X
+
+rate to GMAP X = 0.052
+
+rate to MyMap =  1.9255

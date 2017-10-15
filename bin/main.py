@@ -38,12 +38,14 @@ img = map_img
 encode = json._default_encoder
 
 
+
 def draw_circle(event,x,y,flags,param):
     if event == cv.EVENT_LBUTTONDOWN:
         cv.circle(read,(x,y),10,RED,-1)
         f = open("json.json", "w")
         f.write("{"+'"'+input("Name of the state : ")+'"'+":" +"{"+ '"x"'+":" +'"' + str(x) + '"' + "," +'"'+ "y" + '":' + '"' + str(y) + '"},')
         print("X: " + str(x) + " Y: " + str(y))
+
 
 
 # Create a black image, a window and bind the function to window
