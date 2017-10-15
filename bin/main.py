@@ -1,6 +1,7 @@
 import parse
 import cv2 as cv
 import json
+import numpy
 
 
 
@@ -33,10 +34,30 @@ read = cv.imread(map_img)
 #loc = y, x
 # Y - fist var; X - second var;
 #parse.csv_parse()
-read = cv.circle(read, location('Idaho'), 10, RED, -1)
+img = map_img
+encode = json._default_encoder
 
 
-screen = cv.imshow("Storm Map ", read)
-cv.waitKey(0)
+def draw_circle(event,x,y,flags,param):
+    if event == cv.EVENT_LBUTTONDOWN:
+        cv.circle(read,(x,y),10,RED,-1)
+        f = open("json.json", "w")
+        f.write("{"+'"'+input("Name of the state : ")+'"'+":" +"{"+ '"x"'+":" +'"' + str(x) + '"' + "," +'"'+ "y" + '":' + '"' + str(y) + '"},')
+        print("X: " + str(x) + " Y: " + str(y))
+
+
+# Create a black image, a window and bind the function to window
+
+cv.namedWindow('image')
+cv.setMouseCallback('image', draw_circle)
+
+while(1):
+    cv.imshow('image', read)
+    if cv.waitKey(20) & 0xFF == 27:
+        break
 cv.destroyAllWindows()
+
+
+
+
 
