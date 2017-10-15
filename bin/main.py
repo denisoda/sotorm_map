@@ -5,8 +5,7 @@ import csv
 # Color
 RED = 0, 0, 255
 
-# json_loc
-json_loc = "data/json/loc.json"
+# json_locjson_loc = "data/json/loc.json"
 
 # location reading from json
 
