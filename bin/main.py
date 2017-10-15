@@ -1,6 +1,7 @@
+import parse
 import cv2 as cv
 import json
-import parse
+
 
 
 # Color
@@ -31,7 +32,8 @@ read = cv.imread(map_img)
 
 #loc = y, x
 # Y - fist var; X - second var;
-read = cv.circle(read, location('Oregon'), 10, RED, -1)
+#parse.csv_parse()
+read = cv.circle(read, location('Idaho'), 10, RED, -1)
 
 
 screen = cv.imshow("Storm Map ", read)

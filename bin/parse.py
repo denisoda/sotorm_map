@@ -9,5 +9,3 @@ def csv_parse(location = 'data/csv/', i=43, b=61):
 
 
 
-
-csv_parse()
