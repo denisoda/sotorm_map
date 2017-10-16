@@ -36,10 +36,4 @@ def csv_parse_row(year,location = 'data/csv/', i=43, b=62,row1 = 'YEARMONTH', ro
 
 
 
-def loc_by_year(year,loop):
- print(csv_parse_row(year)[0][loop], csv_parse_row(year)[1][loop], csv_parse_row(year)[2][loop])
-
-
-for i in range(90):
- print(loc_by_year (1998, i))
 

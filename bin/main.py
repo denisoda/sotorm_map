@@ -30,38 +30,43 @@ def location(Name_of_state):
    return int(location[Name_of_state]['x']), int(location[Name_of_state]['y'])
 
 
-def convert_loc(x, y):
-    x * 25.4
-    y * 1.9255
-    return x, y
+##def convert_loc(x, y):
+   ## return float(x) * 19.3, float(y) * -0.1469
 
-def loc_by_year(year,loop):
- print(parse.csv_parse_row(year)[0][loop], parse.csv_parse_row(year)[1][loop], parse.csv_parse_row(year)[2][loop])
+##print(convert_loc(36.332, -967))
+
+#def loc_by_year(year,loop):
+# print(parse.csv_parse_row(year)[0][loop], parse.csv_parse_row(year)[1][loop], parse.csv_parse_row(year)[2][loop])
+
+#for i in range(50):
+ #print(parse.csv_parse_row(1999)[1][i],parse.csv_parse_row(1996)[2][i])
+
+file = open("json.json","w")
+for i in range (10):
+ file.write('{"x":'+'"'+str(parse.csv_parse_row(1998)[1][i])+'","y'+'":"'+str(parse.csv_parse_row(1998)[2][i])+'"}')
 
 
-for i in range(2):
- print(loc_by_year(1999, i))
 
 # Map img ref
-map_img = 'data/map.jpg'
+#map_img = 'data/map.jpg'
 
 
 
 # loc of mark
-y = 260
-x = 450
+x = 701
+y = 660
 
-loc = y, x
+loc = x, y
 # Y - fist var; X - second var;
 #parse.csv_parse()
 
-encode = json._default_encoder
+#encode = json._default_encoder
 
-img = cv.imread(map_img)
+#img = cv.imread(map_img)
 
 
 
-circle = cv.circle(img, loc, 13, RED, -1)
+#circle = cv.circle(img, loc, 13, RED, -1)
 
 # Create a black image, a window and bind the function to window
 
@@ -70,10 +75,9 @@ circle = cv.circle(img, loc, 13, RED, -1)
 
 #while 1:
 
-   # cv.imshow("Storm visualisation", circle)
-  #  if cv.waitKey(0) & 0xFF == 27:
-  #      x =+ 10
-#cv.destroyAllWindows()
+#cv.imshow("Storm visualisation", circle)
+#if cv.waitKey(0) & 0xFF == 27:
+ #cv.destroyAllWindows()
 
 
 
