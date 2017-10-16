@@ -1,4 +1,4 @@
- Diff for (USA area) Y:
+Diff for (USA area) Y:
 
 48 32  = 16 - Gmap
 

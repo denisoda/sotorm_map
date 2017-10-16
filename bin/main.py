@@ -1,8 +1,8 @@
-import parse
+
 import cv2 as cv
 import json
 import numpy
-
+import csv
 
 
 # Color
@@ -13,6 +13,16 @@ json_loc = "data/json/loc.json"
 
 # location reading from json
 
+
+def csv_parse_row(location = 'data/csv/', i=43, b=62,row1 = 'YEARMONTH', row2 = 'LATITUDE', row3 = 'LONGITUDE'):
+ for file in range(i, b):
+  with open(location + str(file) + '.csv') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+      return (int(str(row[row1][:-2])), row[row2], row[row3])
+
+
+
 def location(Name_of_state):
    f = open(json_loc)
    s = f.read()
@@ -20,6 +30,10 @@ def location(Name_of_state):
    return int(location[Name_of_state]['x']), int(location[Name_of_state]['y'])
 
 
+def convert_loc(x, y):
+    x * 25.4
+    y * 1.9255
+    return x, y
 
 
 # Map img ref
@@ -39,19 +53,12 @@ encode = json._default_encoder
 
 
 
-def draw_circle(event,x,y,flags,param):
-    if event == cv.EVENT_LBUTTONDOWN:
-        cv.circle(read,(x,y),10,RED,-1)
-        f = open("json.json", "w")
-        f.write("{"+'"'+input("Name of the state : ")+'"'+":" +"{"+ '"x"'+":" +'"' + str(x) + '"' + "," +'"'+ "y" + '":' + '"' + str(y) + '"},')
-        print("X: " + str(x) + " Y: " + str(y))
-
 
 
 # Create a black image, a window and bind the function to window
 
 cv.namedWindow('image')
-cv.setMouseCallback('image', draw_circle)
+
 
 while(1):
     cv.imshow('image', read)
