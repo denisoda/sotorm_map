@@ -1,8 +1,8 @@
 
 import cv2 as cv
 import json
-import numpy
 import csv
+import parse
 
 
 # Color
@@ -35,36 +35,45 @@ def convert_loc(x, y):
     y * 1.9255
     return x, y
 
+def loc_by_year(year,loop):
+ print(parse.csv_parse_row(year)[0][loop], parse.csv_parse_row(year)[1][loop], parse.csv_parse_row(year)[2][loop])
+
+
+for i in range(2):
+ print(loc_by_year(1999, i))
 
 # Map img ref
 map_img = 'data/map.jpg'
 
-read = cv.imread(map_img)
+
 
 # loc of mark
-#y = int(input("Y: "))
-#x = int(input("X: "))
+y = 260
+x = 450
 
-#loc = y, x
+loc = y, x
 # Y - fist var; X - second var;
 #parse.csv_parse()
-img = map_img
+
 encode = json._default_encoder
 
+img = cv.imread(map_img)
 
 
 
+circle = cv.circle(img, loc, 13, RED, -1)
 
 # Create a black image, a window and bind the function to window
 
-cv.namedWindow('image')
 
 
-while(1):
-    cv.imshow('image', read)
-    if cv.waitKey(20) & 0xFF == 27:
-        break
-cv.destroyAllWindows()
+
+#while 1:
+
+   # cv.imshow("Storm visualisation", circle)
+  #  if cv.waitKey(0) & 0xFF == 27:
+  #      x =+ 10
+#cv.destroyAllWindows()
 
 
 
