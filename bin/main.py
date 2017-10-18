@@ -38,15 +38,25 @@ def location(Name_of_state):
 #def loc_by_year(year,loop):
 # print(parse.csv_parse_row(year)[0][loop], parse.csv_parse_row(year)[1][loop], parse.csv_parse_row(year)[2][loop])
 
-#for i in range(50):
- #print(parse.csv_parse_row(1999)[1][i],parse.csv_parse_row(1996)[2][i])
-
-file = open("json.json","w")
-for i in range (10):
- file.write('{"x":'+'"'+str(parse.csv_parse_row(1998)[1][i])+'","y'+'":"'+str(parse.csv_parse_row(1998)[2][i])+'"}')
 
 
 
+
+#for i in range(3):
+ #print(parse.csv_parse_row(1999)[1][i], parse.csv_parse_row(1996)[2][i])
+
+#file = open("json.js", "w")
+
+#for i in range(10):
+# file.write('{"x":'+'"'+str(parse.csv_parse_row(1998)[1][i])+'","y'+'":"'+str(parse.csv_parse_row(1998)[2][i])+'"}')
+
+arr=[]
+
+for i in range(50):
+ arr.append(({i:(parse.csv_parse_row(1999)[1][i],parse.csv_parse_row(1999)[2][i])}))
+
+with open('json.js', 'w') as f:
+    f.write(json.dumps(arr))
 # Map img ref
 #map_img = 'data/map.jpg'
 
@@ -57,6 +67,7 @@ x = 701
 y = 660
 
 loc = x, y
+
 # Y - fist var; X - second var;
 #parse.csv_parse()
 
