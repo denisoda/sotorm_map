@@ -10,7 +10,7 @@ inp = int(input("Input year(1996 - 2017 :"))
 arr = []
 
 
-#the var literal in the loop will changing after parse algorithm fix 
+#the literal in the loop will be changing after parse algorithm fix
 for i in range(10):
     arr.append(({i:(parse.csv_parse_row(inp)[1][i], parse.csv_parse_row(inp)[2][i])}))
 
