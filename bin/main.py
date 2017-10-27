@@ -9,13 +9,17 @@ json_loc = "data/json/loc.json"
 arr=[]
 
 
-def parser(year):
- for i in range(80):
-    arr.append(({i:(parse.csv_parse(year)[1][i],  parse.csv_parse(year)[2][i])}))
-    update_progress(i+1)
 
-def update_progress(progress):
-    print ('\r[{0}] {1} element parsed'.format('#'*(progress), progress))
+
+
+
+def parser(year):
+ for i in range(parse.size_csv(year)):
+    arr.append(({i:(parse.csv_parse(year)[1][i],  parse.csv_parse(year)[2][i])}))
+    update_progress(i+1, parse.size_csv(year))
+
+def update_progress(progress,size):
+    print ('\r[{0} of {1}]  element parsed'.format(progress, size))
 
 def write_JSON():
     with open('json.js', 'w') as f:

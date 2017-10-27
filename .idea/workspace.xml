@@ -5,75 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf830188-c731-4003-9de8-eed30dc79a77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/0.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/11.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/12.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/13.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/14.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/15.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/16.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/17.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/18.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/19.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/20.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/21.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/22.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/23.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/24.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/25.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/26.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/27.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/28.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/29.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/30.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/31.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/32.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/33.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/34.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/35.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/36.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/37.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/38.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/39.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/4.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/40.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/41.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/42.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/43.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/44.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/45.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/46.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/47.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/48.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/49.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/50.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/51.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/52.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/53.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/54.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/55.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/56.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/57.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/58.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/59.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/60.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/61.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/csv/9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/data/map.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/web/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sotorm_map.iml" afterPath="$PROJECT_DIR$/.idea/sotorm_map.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/data/csv/order.sh" afterPath="$PROJECT_DIR$/bin/data/csv/order.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/json.js" afterPath="$PROJECT_DIR$/bin/json.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main.py" afterPath="$PROJECT_DIR$/bin/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/parse.py" afterPath="$PROJECT_DIR$/bin/parse.py" />
@@ -88,7 +20,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sotorm_map$1_23.coverage" NAME="1`23 Coverage Results" MODIFIED="1508167864081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin/data" />
     <SUITE FILE_PATH="coverage/sotorm_map$parse__1_.coverage" NAME="parse (1) Coverage Results" MODIFIED="1508171012144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
-    <SUITE FILE_PATH="coverage/sotorm_map$main.coverage" NAME="main Coverage Results" MODIFIED="1509115333086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/sotorm_map$d.coverage" NAME="d Coverage Results" MODIFIED="1509116851034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/sotorm_map$main.coverage" NAME="main Coverage Results" MODIFIED="1509117451795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/sotorm_map$Unittests_in_test_py__1_.coverage" NAME="Unittests in test.py (1) Coverage Results" MODIFIED="1508077402805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/sotorm_map$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1508167760176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin/data" />
     <SUITE FILE_PATH="coverage/sotorm_map$beta__1_.coverage" NAME="beta (1) Coverage Results" MODIFIED="1508100435121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin/data" />
@@ -107,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="469">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -119,22 +52,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/parse.py">
+      <file leaf-file-name="StormEvents_details-ftp_v1.0_d1950.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/data/csv/StormEvents_details-ftp_v1.0_d1950.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StormEvents_details-ftp_v1.0_d1951.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/data/csv/StormEvents_details-ftp_v1.0_d1951.csv">
+      <file leaf-file-name="parse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/parse.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/d.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/bin/json.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2335" lean-forward="false" selection-start-line="0" selection-start-column="2335" selection-end-line="0" selection-end-column="2335" />
+              <caret line="0" column="59532" lean-forward="false" selection-start-line="0" selection-start-column="59532" selection-end-line="0" selection-end-column="59532" />
               <folding />
             </state>
           </provider>
@@ -201,7 +146,9 @@
         <option value="$PROJECT_DIR$/bin/web/index.html" />
         <option value="$PROJECT_DIR$/bin/json.js" />
         <option value="$PROJECT_DIR$/bin/web/f.py" />
+        <option value="$PROJECT_DIR$/bin/data/d.py" />
         <option value="$PROJECT_DIR$/bin/parse.py" />
+        <option value="$PROJECT_DIR$/bin/d.py" />
         <option value="$PROJECT_DIR$/bin/main.py" />
       </list>
     </option>
@@ -285,24 +232,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="1`23" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sotorm_map" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/data/1`23.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -450,6 +379,24 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sotorm_map" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="f" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -508,17 +455,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.parse (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1`23" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="Python.f" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="Python.f" />
+      <item index="4" class="java.lang.String" itemvalue="Python.d" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.f" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="Python.parse (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.1`23" />
+        <item index="1" class="java.lang.String" itemvalue="Python.d" />
+        <item index="2" class="java.lang.String" itemvalue="Python.f" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="Python.parse (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -533,6 +480,14 @@
       <option name="presentableId" value="Default" />
       <updated>1507804357423</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fix">
+      <created>1509115389848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509115389848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -576,11 +531,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3347826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3347826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39673913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -634,6 +589,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -651,19 +610,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/data/csv/42.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/web/js.js" />
     <entry file="file://$PROJECT_DIR$/bin/data/csv/56.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -976,14 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2335" lean-forward="false" selection-start-line="0" selection-start-column="2335" selection-end-line="0" selection-end-column="2335" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/web/f.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1002,19 +945,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="59532" lean-forward="false" selection-start-line="0" selection-start-column="59532" selection-end-line="0" selection-end-column="59532" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="469">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/data/csv/StormEvents_details-ftp_v1.0_d1950.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
