@@ -17,3 +17,9 @@ Diff for (USA area) X:
 rate to GMAP X = 0.052
 
 rate to MyMap =  1.9255
+
+ <script src="../json.js"></script>
+    <script>
+      var map;
+      var coord = JSON.parse(data);
+      AIzaSyDvODi5C3fACDxaRtC3JGuNv5N0NbY88J

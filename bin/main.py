@@ -9,10 +9,6 @@ json_loc = "data/json/loc.json"
 arr=[]
 
 
-
-
-
-
 def parser(year):
  for i in range(parse.size_csv(year)):
     arr.append(({i:(parse.csv_parse(year)[1][i],  parse.csv_parse(year)[2][i])}))
@@ -35,7 +31,11 @@ def main():
     else: print("Available only data from 1960 to 2017 "), main()
 
 
+arr = []
 
+
+with open('json.js', 'w') as f:
+    f.write("var data = '" + json.dumps(arr) + "'")
 
 
 main()

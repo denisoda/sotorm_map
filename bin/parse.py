@@ -13,7 +13,6 @@ def csv_parse(year,arr_date = [], arr_x = [], arr_y =[],row1 = 'BEGIN_YEARMONTH'
                 arr_date.append(int((str(row[row1][:-2]))))
                 arr_x.append(str(row[row2]))
                 arr_y.append(str(row[row3]))
-                counter+=1
     return   arr_date, arr_x, arr_y
 
 def size_csv(year,row1 = 'BEGIN_YEARMONTH', row2 = 'BEGIN_LAT', row3 = 'BEGIN_LON',counter=0):
@@ -24,3 +23,4 @@ def size_csv(year,row1 = 'BEGIN_YEARMONTH', row2 = 'BEGIN_LAT', row3 = 'BEGIN_LO
             if (int(str(row[row1][:-2])) == year and not str(row[row2]) == ""):
                 counter+=1
     return int(counter)
+
