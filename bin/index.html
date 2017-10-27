@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height: 100%;
+      }
+       html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="json.js"></script>
+    <script>
+      var coord = JSON.parse(data);
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: new google.maps.LatLng(38.294123, -100.649752),
+          mapTypeId: 'terrain'
+        });
+        var script = document.createElement('script');
+        script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
+        document.getElementsByTagName('head')[0].appendChild(script);
+      }
+      window.eqfeed_callback = function(results) {
+        for (var i = 0; i < coord.length; i++) {
+          var latLng = new google.maps.LatLng( parseInt(coord[i][i][0]), parseInt(coord[i][i][1]));
+          var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+          });
+        }
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsvDIdrsVT4maXnrmKvYBPDWaHXguCxWU&callback=initMap">
+    </script>
+  </body>
+</html>
