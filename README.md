@@ -1,2 +1,2 @@
 Manual:
-1. Run a main.py
+1. Run the main.py
